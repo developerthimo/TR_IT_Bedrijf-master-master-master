@@ -1,0 +1,22 @@
+nav#Main_navbar {
+    border-bottom: 1px solid black;
+}
+
+  ul.navbar-nav li.nav-item a {
+    border-bottom: 3px solid transparent;
+    color:black;
+    transition: .3s linear;
+  }
+
+ul.navbar-nav li.nav-item a:hover {
+      color:black;
+      border-bottom-color: black;
+  }
+
+body {
+  margin-top: 60px;
+}
+
+div#login_card {
+  margin: 13%;
+}
